@@ -3,9 +3,9 @@ title: "Examples Rprebas"
 author: "francesco minunno"
 date: "13 March 2018"
 output:
-  word_document: default
-  pdf_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -103,22 +103,15 @@ PREBASout <- prebas(
                    nYears=nYears,
                    pCROBAS = pCROB,
                    pPRELES = pPREL,
-                   pYASSO = pYAS,
-                   pAWEN = parsAWEN,
                    siteInfo = siteInfo,
                    thinning = thinning,
                    PAR=PAR,TAir=TAir,VPD=VPD,Precip=Precip,CO2=CO2,
                    P0=NA,
                    initVar = as.matrix(initVar),
-                   soilC = NA,
-                   weatherYasso = NA,
-                   litterSize = NA,
-                   soilCtot = NA,
                    defaultThin = 0.,
                    ClCut = 1.,
                    inDclct = NA,
-                   inAclct = NA,
-                   yassoRun = 0)
+                   inAclct = NA)
 ```
 
 
