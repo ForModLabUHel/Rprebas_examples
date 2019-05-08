@@ -31,7 +31,7 @@ Install the package
 
 Load the packageg
 ```{r}
-library(Rprebas)
+library(Rprebasso)
 ```
 
 
