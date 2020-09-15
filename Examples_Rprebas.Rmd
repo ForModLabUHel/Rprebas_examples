@@ -24,8 +24,8 @@ Go to the folder were the package is and install the package and load the librar
 
 Install the package
 ```{r}
-# library(devtools)
-# install_github("ForModLabUHel/Rprebasso@v0.2.x")
+vPREBAS <- "v0.2.x"   #### choose PREBAS verson to run the model  "master"
+devtools::install_github("ForModLabUHel/Rprebasso", ref=vPREBAS)
 ```
 
 Load the packageg
