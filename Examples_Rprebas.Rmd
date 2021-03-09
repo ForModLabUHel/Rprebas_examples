@@ -102,7 +102,7 @@ PREBASout <- prebas(
                    nYears=nYears,
                    pCROBAS = pCROB,
                    pPRELES = pPREL,
-                   siteInfo = siteInfo,
+                   siteInfo = as.numeric(siteInfo),
                    thinning = thinning,
                    PAR=PAR,TAir=TAir,VPD=VPD,Precip=Precip,CO2=CO2,
                    P0=NA,
