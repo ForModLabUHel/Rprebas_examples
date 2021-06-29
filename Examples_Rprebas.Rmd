@@ -3,8 +3,8 @@ title: "Examples Rprebas"
 author: "francesco minunno"
 date: "13 March 2018"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 ---
 
@@ -68,7 +68,12 @@ PREBASout <- prebas(nYears = 100, PAR=PAR,TAir=TAir,VPD=VPD,Precip=Precip,CO2=CO
 
 Plot model outputs
 ```{r}
-# plot.prebas(PREBASout,layerNam = c("pine","spruce","birch"))
+
+variableIDs=c(11:14,30,44);siteIDs=NA;leg=T;layerNam = c("pine","spruce","birch")
+
+plot.prebas(PREBASout,variableIDs,siteIDs,leg = F,layerNam =layerNam)
+
+
 ```
 
 
